@@ -1,0 +1,22 @@
+{
+  "name": "clean-blog",
+  "version": "1.0.0",
+  "description": "\"# CLEAN-BLOG\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alidogustarhan/CLEAN-BLOG.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alidogustarhan/CLEAN-BLOG/issues"
+  },
+  "homepage": "https://github.com/alidogustarhan/CLEAN-BLOG#readme",
+  "devDependencies": {
+    "prettier": "2.5.1"
+  }
+}
