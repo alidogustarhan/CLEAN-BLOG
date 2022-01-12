@@ -23,6 +23,16 @@ app.use(express.json())
 
 
 //ROUTES
+
+app.get('/messages/:id', async (req,res)=>{
+  const message = await Message.findById(req.params.id)
+  res.render('post',{
+    message
+  });
+});
+
+
+
 app.get('/', async (req, res) => {
   const messages = await Message.find({})
   res.render('index',{
